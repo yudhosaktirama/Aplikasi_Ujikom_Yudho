@@ -17,6 +17,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class DetailActivity extends AppCompatActivity {
     private TextView tvNama;
+
+    private TextView cobaGan;
     private TextView tvNIM;
     private TextView tvGender;
     private TextView tvTTL;
