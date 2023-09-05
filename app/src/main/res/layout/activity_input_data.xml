@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101E42"
+    tools:context=".Activity.InputDataActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/namaMahasiswa"
+        app:layout_constraintEnd_toStartOf="@+id/namaMahasiswa"
+        app:layout_constraintTop_toTopOf="@+id/namaMahasiswa"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:text="ID Mahasiswa"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/idMahasiswa"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="1101"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/namaMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Yudho Sakti Rama"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Nama Mahasiswa"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/idMahasiswa"
+        app:layout_constraintTop_toBottomOf="@+id/idMahasiswa" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="NIM Mahasiswa"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/namaMahasiswa"
+        app:layout_constraintTop_toBottomOf="@+id/namaMahasiswa" />
+
+    <EditText
+        android:id="@+id/nimMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="2223307028"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Tempat Tanggal Lahir"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/jenisKelamin"
+        app:layout_constraintTop_toBottomOf="@+id/jenisKelamin" />
+
+    <EditText
+        android:id="@+id/ttlMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Madiun,23 Agustus 2003"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Jenis Kelamin"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/nimMahasiswa"
+        app:layout_constraintTop_toBottomOf="@+id/nimMahasiswa" />
+
+    <EditText
+        android:id="@+id/jenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Laki-Laki / Perempuan"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/idMahasiswa"
+        app:layout_constraintEnd_toStartOf="@+id/idMahasiswa"
+        app:layout_constraintTop_toTopOf="@+id/idMahasiswa"
+        app:layout_constraintVertical_bias="0.533"
+        app:srcCompat="@drawable/baseline_co_present_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/namaMahasiswa"
+        app:layout_constraintEnd_toStartOf="@+id/namaMahasiswa"
+        app:layout_constraintTop_toTopOf="@+id/namaMahasiswa"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/nimMahasiswa"
+        app:layout_constraintEnd_toStartOf="@+id/nimMahasiswa"
+        app:layout_constraintTop_toTopOf="@+id/nimMahasiswa"
+        app:srcCompat="@drawable/baseline_boy_24" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/jenisKelamin"
+        app:layout_constraintEnd_toStartOf="@+id/jenisKelamin"
+        app:layout_constraintTop_toTopOf="@+id/jenisKelamin"
+        app:srcCompat="@drawable/baseline_emoji_people_24" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SIlahkan Masukkan Data Berikut"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/ttlMahasiswa"
+        app:layout_constraintEnd_toStartOf="@+id/ttlMahasiswa"
+        app:layout_constraintTop_toTopOf="@+id/ttlMahasiswa"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBackInputData"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBackInputData"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonBackInputData"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="253dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cobalogo" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonBackInputData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttlMahasiswa"
+        app:layout_constraintVertical_bias="0.544"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

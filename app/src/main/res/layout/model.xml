@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layputing"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/teksnama"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Yudho Sakti Rama S.A"
+        />
+    <TextView
+        android:id="@+id/teksnim"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="223307028"/>
+    <Button
+        android:id="@+id/buttonpilihan"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Pilihan"/>
+</LinearLayout>

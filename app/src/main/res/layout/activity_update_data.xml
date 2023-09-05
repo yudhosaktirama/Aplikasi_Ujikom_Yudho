@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101E42"
+    tools:context=".Activity.UpdateDataActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Update Data Mahasiswa"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:background="@color/black"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Nama Mahasiswa"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <EditText
+        android:id="@+id/updateNama"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:padding="6dp"
+        android:background="@color/white"
+        android:hint="Update Nama"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="NIM Mahasiswa"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <EditText
+        android:id="@+id/updateNIM"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:padding="6dp"
+        android:background="@color/white"
+        android:hint="Update NIM"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Gender"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:srcCompat="@drawable/baseline_boy_24" />
+
+    <EditText
+        android:id="@+id/updateGender"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:padding="6dp"
+        android:hint="Update Gender"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView25" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Tempat Tanggal Lahir"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <EditText
+        android:id="@+id/updateTTL"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:padding="6dp"
+        android:hint="Update TTL"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingBackUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTTL"
+        app:layout_constraintVertical_bias="0.752"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingBackUpdate"
+        app:layout_constraintEnd_toStartOf="@+id/floatingBackUpdate"
+        app:layout_constraintTop_toTopOf="@+id/floatingBackUpdate"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_save_as_24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="314dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/cobalogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

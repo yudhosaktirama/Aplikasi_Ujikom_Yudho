@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="Pilihan Yang Tersedia"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/detailData"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:background="#75967e"
+        android:text="Lihat Detail Data"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/updateData"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#b5b19f"
+        android:padding="16dp"
+        android:text="Update Data"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+    <TextView
+        android:id="@+id/hapusData"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:background="#ad687c"
+        android:text="Hapus Data"
+        android:textSize="24sp" />
+
+</LinearLayout>

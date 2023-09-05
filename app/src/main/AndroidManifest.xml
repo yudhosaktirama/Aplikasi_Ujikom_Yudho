@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiUjikomYudho"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.UpdateDataActivity"
+            android:noHistory="true"
+            android:label="Database Mahasiswa"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetailActivity"
+            android:noHistory="true"
+            android:label="Database Mahasiswa"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InputDataActivity"
+            android:noHistory="true"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:label="Input Data Mahasiswa" />
+        <activity
+            android:name=".Activity.InformasiActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:label="Tentang Aplikasi" />
+        <activity
+            android:name=".Activity.LihatDataActivity"
+            android:noHistory="true"
+            android:label="Database Mahasiswa"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:label="Dasboard" />
+        <activity
+            android:name=".SplashActivity.loginSplashScreenActivity"
+            android:noHistory="true"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:noHistory="true"
+            android:exported="false"
+            android:label="Registrasi Mahasiswa"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".SplashActivity.MainActivity"
+            android:noHistory="true"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
